@@ -51,12 +51,6 @@ class HLL{
 
 
 int main() {
-    HLL hll(4);
-    for (int i = 0; i < 8; i++){
-        std::string input;
-        std::cin >> input;
-        hll.add(input);
-    }
-    std::cout << hll.estimate() << std::endl;
+    
     return 0;
 }
